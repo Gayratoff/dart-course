@@ -1,0 +1,33 @@
+Dartda kommentlar
+
+Comments(Kommentlar)
+Comments(Kommentlar)
+bu dasturni bajarish vaqtida dart kompilyator tomonidan e’tiborga olinmaydigan bayonotlar to’plami. Ular siz yoki boshqa odamlar uni osongina tushunishlari uchun kodni tushuntirish uchun ishlatiladi.
+
+
+Komment yozishning foydalari
+
+Siz yozgan kodinggizni qanday vazifa bejarishi yozib ketasiz
+Kommentlar boshqa dasturchilar sizning kodingiz tushunishga yordam beradi
+Kommentning turlari
+
+Single-Line Comment(Bir qatorli sharh): Bir qator kodga sharh berish uchun. Masalan, // Bu bir qatorli izoh.
+Multi-Line Comment(Ko’p qatorli sharh): Kodning bir nechta satriga sharh berish uchun. Masalan, /* Bu ko’p qatorli sharh. */
+Documentation Comment(Dokument sharh): Loyiha/dasturiy taʼminot toʻplami uchun hujjatlar yoki maʼlumotnoma yaratish uchun. Masalan, /// Bu hujjat sharhi
+
+
+Single-Line Comment In Dart
+
+"// bu bir qatorli sharh."
+
+Multi-Line Comment
+
+"/*
+bu ko'p qatorli sharh
+*/"
+
+
+Documentation Comment
+Bu komment turi siz kodingiz uchun dokumentatsiya yozishingizda yordam.Dokument uchun kommmentlar /// bilan boshlanadi
+
+"/// bu dokumentatsiya sharhi"
