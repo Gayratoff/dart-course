@@ -39,6 +39,13 @@ void main(){
   print(_a);
 
 
+
+  // toStringAsFixed(2) kasrni 2chi qiymatgacha yaxlitlash uchun
+  double  f = 12.345455432;
+
+  print(f.toStringAsFixed(1));
+
+
 }
 
 /*
