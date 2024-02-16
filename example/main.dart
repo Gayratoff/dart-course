@@ -72,23 +72,17 @@ void n5(){
 
 
 void n6(){ 
-  var n = 11;
-  var m = n/2;
-  bool status = true;
-  for (var i = 2; i <= sqrt(m); i++) {
-
-    if(n%i == 0){
-      status = false;
-      break;
-    } 
+  var n = 6;
+  int dvider =0;
+  for (var i = 1; i <=n; i++) {
+    if (n%i == 0){
+      dvider++;
+    }
+    
   }
-  if (n ==1){
-    status = false;
-  }
-
-  if (status == true){
-      print("Bu son tub son");
-    }else{print("Bu son tub son emas");}
+  if(n!=1&&dvider==2){
+    print("Tubson");
+  }else{print("tubson emas");}
 }
 
 
